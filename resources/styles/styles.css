@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+}
+
+.navbar__brand {
+    height: 50px;
+    margin-left: 10px;
+}
+
+.navbar__nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar__nav__item {
+    color: white;
+    margin-right: 20px;
+}
+
