@@ -140,3 +140,18 @@ h2, h4 {
     background-color: black;
     opacity: 1;
 }
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 200px;
+}
+
+.contact h3 {
+    padding-top: 20px;
+}
+
+.contact h5 {
+    margin: 10px;
+}
