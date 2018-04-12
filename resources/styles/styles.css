@@ -94,3 +94,49 @@ h2, h4 {
 .featured-tea__gallery__item h4 {
     margin-top: 10px;
 }
+
+.locations-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.locations {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+    height: 500px;
+    background: url("../images/img-locations-background.jpg") no-repeat scroll;
+    background-size: cover;
+}
+
+.locations__header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.locations__header h3 {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.locations__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.locations__list__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 300px;
+    height: 300px;
+    margin: 0 20px;
+    background-color: black;
+    opacity: 1;
+}
