@@ -64,7 +64,7 @@ h2, h4 {
 .featured-tea-container {
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    padding-top: 50px;
 }
 
 .featured-tea {
@@ -98,7 +98,7 @@ h2, h4 {
 .locations-container {
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    padding-top: 50px;
 }
 
 .locations {
@@ -154,4 +154,10 @@ h2, h4 {
 
 .contact h5 {
     margin: 10px;
+}
+
+.footer {
+    font-size: 17px;
+    margin-left: 20px;
+    text-align: left;
 }
