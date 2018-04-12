@@ -8,6 +8,10 @@ body {
     text-align: center;
 }
 
+h2, h4 {
+    margin: 20px 0;
+}
+
 .navbar {
     display: flex;
     flex-direction: row;
@@ -34,5 +38,26 @@ body {
 .navbar__nav__item {
     color: white;
     margin-right: 20px;
+}
+
+.mission-container {
+    display: flex;
+    justify-content: center;
+}
+
+.mission {
+    display: flex;
+    align-items: center;
+    height: 700px;
+    width: 1200px;
+    margin-top: 69px;
+    background: url("../images/img-mission-background.jpg") no-repeat scroll center;
+    background-size: cover;
+}
+
+.mission__header {
+    width: 100%;
+    background-color: black;
+    text-align: center;
 }
 
